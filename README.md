@@ -4,9 +4,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![](public/image/screenshot.png)
 
-## Available Scripts
+Create a simple web-app to display a map with all state parks displayed as pins on the map
+
+## Features
+* Pins on map are clickable
+* On clicking a pin, info details display about the park like name, timings, address, etc.
+* Mobile repsonive
+* State Search Functionality
+* Display card details content listings
+
+## Available Scripts and Running
 
 In the project directory, you can run:
+
+### `npm install`
+
+Runs the installation to ensure that the dependencies remain the same on all machines the project is installed on.
 
 ### `npm start`
 
