@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Welcome to Park Finder!
 
-![screenshot](/screens/parkfinder.png?raw=true)
+
 
 ## Available Scripts
 
