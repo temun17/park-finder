@@ -15,6 +15,8 @@ Create a simple web-app to display a map with all state parks displayed as pins 
 
 ## Available Scripts and Running
 
+### `Clone Repo`
+
 In the project directory, you can run:
 
 ### `npm install`
