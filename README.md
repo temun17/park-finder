@@ -23,7 +23,7 @@ In the project directory, you can run:
 
 Runs the installation to ensure that the dependencies remain the same on all machines the project is installed on.
 
-### `npm start`
+### `npm run start-dev`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
