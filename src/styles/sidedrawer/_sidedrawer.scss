@@ -1,0 +1,69 @@
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button_line {
+    width: 30px;
+    height: 2px;
+    background: white;
+}
+
+.side-drawer {
+    height: 100%;
+    background: white;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 400px;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.side-drawer li {
+    margin: 0.5rem 0;
+}
+
+.side-drawer ul {
+    height: 100%;
+    font-size: 1.2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.side-drawer a {
+    color:  rgb(95, 124, 162);
+    text-decoration: none;
+}
+
+.side-drawer a:hover,
+.side-drawer a:active {
+    color: #69bd46;
+}
+
+.side-drawer.open {
+    transform: translateX(0);
+}
+
+@media (min-width: 769px) {
+    .side-drawer {
+        display: none;
+    };
+}
