@@ -10,7 +10,7 @@ Create a simple web-app to display a map with all state parks displayed as pins 
 * Pins on map are clickable
 * Fetch Data using foursquare API
 * On clicking a pin, info details display about the park like name, timings, address, etc.
-* Mobile responive
+* Mobile responsive
 * State Search Functionality
 * Display card details content listings
 
